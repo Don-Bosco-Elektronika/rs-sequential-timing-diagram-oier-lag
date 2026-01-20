@@ -54,17 +54,26 @@ nire zenbakia 1 da,RS-ko 5 ariketak hauek dira, ordenean daude
 
 
 ## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
-Circuito A
+hemen ordenean berriro jarriko ditut kodigoak
+1-
+{signal: [
+  {name: 'Set',   wave: 'hl.h.lhl.h...l..h'},
+  {name: 'Reset', wave: 'l.h.l.h.lhlhl..h.'},
+  {},
+  {name: 'Q',     wave: '1.0x1.x0.x1x1..0x'},
+  {name: '~Q',    wave: '0.1x0.x1.x0x0..1x'}
+]}
 
-*(Añade aquí el código del WaveDrom)*
 
-Circuito B
+2-
 
-*(Añade aquí el código del WaveDrom)*
+3-
 
-... AÑADE LO MÁS CIRCUITOS
+4-
 
----
+5-
+
+
 
 
 ## 📤 Entrega / Igo / Upload  
