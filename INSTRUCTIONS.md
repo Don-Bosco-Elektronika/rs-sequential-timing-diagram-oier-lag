@@ -37,7 +37,8 @@
 ## 🔲 Resultado del Cronograma / Kronogramaren Emaitza / Timing Diagram Result
 Circuito A
 
-*(Añade aquí la captura del WaveDrom)*
+*(<img width="586" height="342" alt="image" src="https://github.com/user-attachments/assets/6007a606-5634-4093-827c-d700d5d17423" />
+)*
 
 Circuito B
 
