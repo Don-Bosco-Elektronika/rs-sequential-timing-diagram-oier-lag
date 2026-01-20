@@ -57,6 +57,7 @@
 ## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
 hemen ordenean berriro jarriko ditut kodigoak
 1-
+
 {signal: [
   {name: 'Set',   wave: 'hl.h.lhl.h...l..h'},
   {name: 'Reset', wave: 'l.h.l.h.lhlhl..h.'},
@@ -64,6 +65,7 @@ hemen ordenean berriro jarriko ditut kodigoak
   {name: 'Q',     wave: '1.0x1.x0.x1x1..0x'},
   {name: '~Q',    wave: '0.1x0.x1.x0x0..1x'}
 ]}
+
 
 
 2-
