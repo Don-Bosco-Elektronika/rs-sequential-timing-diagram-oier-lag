@@ -56,6 +56,8 @@
 
 ## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
 hemen ordenean berriro jarriko ditut kodigoak
+
+
 1-
 
 {signal: [
@@ -68,13 +70,53 @@ hemen ordenean berriro jarriko ditut kodigoak
 
 
 
+
 2-
 
+{signal: [
+  {name: 'clk', wave: 'P................'},
+  {name: 'Set', wave: '0101..0..1.0..1.0'},
+  {name: 'Reset', wave: '1...0..1.0..1..01'},
+  {},
+  {name: 'Q', wave: '0.x0x1..0.1..0.x1'},
+  {name: '-Q', wave: '1.x1x0..1.0..1.x0'}
+]}
+
+
+
 3-
+{signal: [
+  {name: 'clk', wave: 'N................'},
+  {name: 'Set', wave: '0101..0..1.0..1.0'},
+  {name: 'Reset', wave: '1...0..1.0..1..01'},
+  {},
+  {name: 'Q', wave: '0.x0x1..0.1..0.x1'},
+  {name: '-Q', wave: '1.x1x0..1.0..1.x0'}
+]}
+
+
 
 4-
+{signal: [
+  {name: 'clk',period:2, wave: 'p................'},
+  {name: 'Set', wave: '0101..0..1.0..1.0'},
+  {name: 'Reset', wave: '1...0..1.0..1..01'},
+  {},
+  {name: 'Q', wave: '0...1...0.1.0.x.0'},
+  {name: '-Q', wave: '1...0...1.0.1.x.1'}
+]}
+
+
 
 5-
+{signal: [
+  {name: 'clk', wave: 'n................'},
+  {name: 'Set', wave: 'lhlh..l..h.l..h.l'},
+  {name: 'Reset', wave: 'h...l..h.l..h..lh'},
+  {},
+  {name: 'Q', wave: '0.x.0.x.1.....0..'},
+  {name: '-Q', wave: '1.x.1.x.0.....1..'}
+]}
 
 
 
