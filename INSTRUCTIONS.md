@@ -4,24 +4,15 @@
 |-------------|-----------|------------|
 | 2ME         | 1º        | EEM (Equipos Microprogramables) |
 
----
 
-## 📌 Ejercicio / Ariketa / Exercice
-
-**Ejercicio (ES): (ESCRIBE EL NÚMERO)**  
-| Nombre                     | Número de Chip | Símbolo         | Descripción del Funcionamiento                                                                 |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? | 
 
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? |  
+| RS | 4044          | <img width="99" height="76" alt="image" src="https://github.com/user-attachments/assets/ec4d5758-4966-4475-bfd1-8b30966aa5c8" />
+ | Ez dauka erloju-sarrerarik (Clock). Set edo Reset aktibatzean, irteera momentuan aldatzen da, itxaron gabe.|  
 
-**Exercice (EN): (WRITE THE NUMBER)**  
-| Name                     | Chip number | Symbol         | Description of Operation                                                               |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ? | ? | ? |  
+
 
 ---
 
@@ -38,7 +29,7 @@
 
 ## 🔲 Circuitos a Simular / Simulatzeko Zirkuituak / Circuits to Simulate
 
-*(Añade aquí la captura de proteus)*
+*(Añade aquí la capt)*
 
 ---
 
