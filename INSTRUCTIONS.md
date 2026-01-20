@@ -29,7 +29,8 @@
 
 ## 🔲 Circuitos a Simular / Simulatzeko Zirkuituak / Circuits to Simulate
 
-*(Añade aquí la capt)*
+*(<img width="566" height="518" alt="image" src="https://github.com/user-attachments/assets/525bab23-925c-4881-a1bc-4626ddceda4a" />
+)*
 
 ---
 
