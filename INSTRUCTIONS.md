@@ -43,7 +43,10 @@ nire zenbakia 1 da,RS-ko 5 ariketak hauek dira, ordenean daude
 <img width="574" height="367" alt="image" src="https://github.com/user-attachments/assets/b95fb557-077e-4b6d-b78c-9709c7dbb5f4" />
 3-
 <img width="572" height="339" alt="image" src="https://github.com/user-attachments/assets/e9a2a3e2-0e3c-42b5-88e4-bc91d7b5bbfe" />
-
+4-
+<img width="596" height="331" alt="image" src="https://github.com/user-attachments/assets/543bbd0b-1e14-4f73-a91d-d5350be9892a" />
+5-
+<img width="562" height="334" alt="image" src="https://github.com/user-attachments/assets/07704e2c-f614-492f-93d3-479e621f2716" />
 
 
 
