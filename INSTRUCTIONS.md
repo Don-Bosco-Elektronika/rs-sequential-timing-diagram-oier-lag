@@ -9,8 +9,7 @@
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| RS | 4044          | <img width="99" height="76" alt="image" src="https://github.com/user-attachments/assets/ec4d5758-4966-4475-bfd1-8b30966aa5c8" />
- | Ez dauka erloju-sarrerarik (Clock). Set edo Reset aktibatzean, irteera momentuan aldatzen da, itxaron gabe.|  
+| RS | 4044          | <img width="99" height="76" alt="image" src="https://github.com/user-attachments/assets/ec4d5758-4966-4475-bfd1-8b30966aa5c8" />| Ez dauka erloju-sarrerarik (Clock). Set edo Reset aktibatzean, irteera momentuan aldatzen da, itxaron gabe.|  
 
 
 
@@ -61,11 +60,17 @@ hemen ordenean berriro jarriko ditut kodigoak
 1-
 
 {signal: [
+
   {name: 'Set',   wave: 'hl.h.lhl.h...l..h'},
+  
   {name: 'Reset', wave: 'l.h.l.h.lhlhl..h.'},
+  
   {},
+  
   {name: 'Q',     wave: '1.0x1.x0.x1x1..0x'},
+  
   {name: '~Q',    wave: '0.1x0.x1.x0x0..1x'}
+  
 ]}
 
 
@@ -74,48 +79,77 @@ hemen ordenean berriro jarriko ditut kodigoak
 2-
 
 {signal: [
+
   {name: 'clk', wave: 'P................'},
+  
   {name: 'Set', wave: '0101..0..1.0..1.0'},
+  
   {name: 'Reset', wave: '1...0..1.0..1..01'},
+  
   {},
+  
   {name: 'Q', wave: '0.x0x1..0.1..0.x1'},
+  
   {name: '-Q', wave: '1.x1x0..1.0..1.x0'}
+  
 ]}
 
 
 
 3-
 {signal: [
+
   {name: 'clk', wave: 'N................'},
+  
   {name: 'Set', wave: '0101..0..1.0..1.0'},
+  
   {name: 'Reset', wave: '1...0..1.0..1..01'},
+  
   {},
+  
   {name: 'Q', wave: '0.x0x1..0.1..0.x1'},
+  
   {name: '-Q', wave: '1.x1x0..1.0..1.x0'}
+  
 ]}
+
 
 
 
 4-
 {signal: [
+
   {name: 'clk',period:2, wave: 'p................'},
+  
   {name: 'Set', wave: '0101..0..1.0..1.0'},
+  
   {name: 'Reset', wave: '1...0..1.0..1..01'},
+  
   {},
+  
   {name: 'Q', wave: '0...1...0.1.0.x.0'},
+  
   {name: '-Q', wave: '1...0...1.0.1.x.1'}
+  
 ]}
 
 
 
 5-
 {signal: [
+
   {name: 'clk', wave: 'n................'},
+  
   {name: 'Set', wave: 'lhlh..l..h.l..h.l'},
+  
   {name: 'Reset', wave: 'h...l..h.l..h..lh'},
+  
   {},
+  
   {name: 'Q', wave: '0.x.0.x.1.....0..'},
+  
   {name: '-Q', wave: '1.x.1.x.0.....1..'}
+  
 ]}
 
 
