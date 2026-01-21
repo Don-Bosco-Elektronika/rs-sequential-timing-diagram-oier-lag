@@ -50,8 +50,7 @@
 
 
 
----
-
+()
 
 ## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
 hemen ordenean berriro jarriko ditut kodigoak
