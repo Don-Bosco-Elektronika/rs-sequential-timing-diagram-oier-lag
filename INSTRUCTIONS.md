@@ -4,24 +4,14 @@
 |-------------|-----------|------------|
 | 2ME         | 1º        | EEM (Equipos Microprogramables) |
 
----
 
-## 📌 Ejercicio / Ariketa / Exercice
-
-**Ejercicio (ES): (ESCRIBE EL NÚMERO)**  
-| Nombre                     | Número de Chip | Símbolo         | Descripción del Funcionamiento                                                                 |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? | 
 
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? |  
+| RS | 4044          | <img width="99" height="76" alt="image" src="https://github.com/user-attachments/assets/ec4d5758-4966-4475-bfd1-8b30966aa5c8" />| Ez dauka erloju-sarrerarik (Clock). Set edo Reset aktibatzean, irteera momentuan aldatzen da, itxaron gabe.|  
 
-**Exercice (EN): (WRITE THE NUMBER)**  
-| Name                     | Chip number | Symbol         | Description of Operation                                                               |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ? | ? | ? |  
+
 
 ---
 
@@ -38,36 +28,130 @@
 
 ## 🔲 Circuitos a Simular / Simulatzeko Zirkuituak / Circuits to Simulate
 
-*(Añade aquí la captura de proteus)*
+*(<img width="566" height="518" alt="image" src="https://github.com/user-attachments/assets/525bab23-925c-4881-a1bc-4626ddceda4a" />
+)*
 
 ---
 
 ## 🔲 Resultado del Cronograma / Kronogramaren Emaitza / Timing Diagram Result
-Circuito A
+(nire zenbakia 1 da,RS-ko 5 ariketak hauek dira, ordenean daude)
 
-*(Añade aquí la captura del WaveDrom)*
+1-
+*(<img width="586" height="342" alt="image" src="https://github.com/user-attachments/assets/6007a606-5634-4093-827c-d700d5d17423" />
+)*
+2-
+<img width="574" height="367" alt="image" src="https://github.com/user-attachments/assets/b95fb557-077e-4b6d-b78c-9709c7dbb5f4" />
+3-
+<img width="572" height="339" alt="image" src="https://github.com/user-attachments/assets/e9a2a3e2-0e3c-42b5-88e4-bc91d7b5bbfe" />
+4-
+<img width="596" height="331" alt="image" src="https://github.com/user-attachments/assets/543bbd0b-1e14-4f73-a91d-d5350be9892a" />
+5-
+<img width="562" height="334" alt="image" src="https://github.com/user-attachments/assets/07704e2c-f614-492f-93d3-479e621f2716" />
 
-Circuito B
 
-*(Añade aquí la captura del WaveDrom)*
 
-... AÑADE LO MÁS CIRCUITOS
-
----
-
+()
 
 ## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
-Circuito A
+hemen ordenean berriro jarriko ditut kodigoak
 
-*(Añade aquí el código del WaveDrom)*
 
-Circuito B
+1-
 
-*(Añade aquí el código del WaveDrom)*
+{signal: [
 
-... AÑADE LO MÁS CIRCUITOS
+  {name: 'Set',   wave: 'hl.h.lhl.h...l..h'},
+  
+  {name: 'Reset', wave: 'l.h.l.h.lhlhl..h.'},
+  
+  {},
+  
+  {name: 'Q',     wave: '1.0x1.x0.x1x1..0x'},
+  
+  {name: '~Q',    wave: '0.1x0.x1.x0x0..1x'}
+  
+]}
 
----
+
+
+
+2-
+
+{signal: [
+
+  {name: 'clk', wave: 'P................'},
+  
+  {name: 'Set', wave: '0101..0..1.0..1.0'},
+  
+  {name: 'Reset', wave: '1...0..1.0..1..01'},
+  
+  {},
+  
+  {name: 'Q', wave: '0.x0x1..0.1..0.x1'},
+  
+  {name: '-Q', wave: '1.x1x0..1.0..1.x0'}
+  
+]}
+
+
+
+3-
+{signal: [
+
+  {name: 'clk', wave: 'N................'},
+  
+  {name: 'Set', wave: '0101..0..1.0..1.0'},
+  
+  {name: 'Reset', wave: '1...0..1.0..1..01'},
+  
+  {},
+  
+  {name: 'Q', wave: '0.x0x1..0.1..0.x1'},
+  
+  {name: '-Q', wave: '1.x1x0..1.0..1.x0'}
+  
+]}
+
+
+
+
+4-
+{signal: [
+
+  {name: 'clk',period:2, wave: 'p................'},
+  
+  {name: 'Set', wave: '0101..0..1.0..1.0'},
+  
+  {name: 'Reset', wave: '1...0..1.0..1..01'},
+  
+  {},
+  
+  {name: 'Q', wave: '0...1...0.1.0.x.0'},
+  
+  {name: '-Q', wave: '1...0...1.0.1.x.1'}
+  
+]}
+
+
+
+5-
+{signal: [
+
+  {name: 'clk', wave: 'n................'},
+  
+  {name: 'Set', wave: 'lhlh..l..h.l..h.l'},
+  
+  {name: 'Reset', wave: 'h...l..h.l..h..lh'},
+  
+  {},
+  
+  {name: 'Q', wave: '0.x.0.x.1.....0..'},
+  
+  {name: '-Q', wave: '1.x.1.x.0.....1..'}
+  
+]}
+
+
 
 
 ## 📤 Entrega / Igo / Upload  
